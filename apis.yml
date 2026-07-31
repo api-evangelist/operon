@@ -1,7 +1,18 @@
 aid: operon
 name: Operon
-description: Operon is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Operon is an AI-powered manufacturing intelligence platform (Y Combinator
+  S2026) that turns P&IDs (Piping & Instrumentation Diagrams), schematics,
+  datasheets, and scanned engineering documents into one structured, queryable
+  model of a plant. Its P&ID Recognition detects equipment, instruments, valves,
+  and piping symbols across ISA, ISO, and proprietary symbology; its P&ID Agent
+  generates standards-compliant diagrams from text, simulation data, or sketches;
+  and Knowledge Chat lets engineers query plant documentation in natural language
+  and build agentic workflows for safety, compliance, HAZOP/PHA, EHS, material
+  take-offs, brownfield digitization, and management-of-change. Operon exports
+  structured DEXPI data and offers cloud and on-premise deployment with
+  encryption, role-based access control, and audit trails. As of July 2026 the
+  product is in private beta (pid.operonsolutions.com) and publishes no public API.
 url: https://raw.githubusercontent.com/api-evangelist/operon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,53 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.operonsolutions.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Manufacturing
+- Industrial
+- Engineering
+- Artificial Intelligence
+- P&ID
+- Process Industries
+- Chemical Engineering
+- Data Intelligence
+- DEXPI
 apis: []
+common:
+- type: Website
+  url: https://www.operonsolutions.com/en
+- type: Blog
+  url: https://www.operonsolutions.com/en/blog
+- type: Login
+  url: https://www.operonsolutions.com/en/signin
+- type: Support
+  url: https://www.operonsolutions.com/en#contact
+- type: TermsOfService
+  url: https://www.operonsolutions.com/en/terms
+- type: PrivacyPolicy
+  url: https://www.operonsolutions.com/en/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
